@@ -1,0 +1,19 @@
+package java1;
+
+
+public  class main3{
+	public static void main(String[] args) {
+		String s[]=new String[7];
+		s[0]="pazartesi";
+		s[1]="salı";
+		s[2]="çarşamba";
+		s[3]="perşembe";
+		s[4]="cuma";
+		s[5]="cumartesi";
+		s[6]="pazar";
+		for (int i = 0; i < s.length; i++) {
+			System.out.println(s[i]);
+			
+		}
+
+	}}
