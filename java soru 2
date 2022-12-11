@@ -1,0 +1,15 @@
+package java1;
+import java.util.Scanner;
+public class MAİN2 {
+
+	public static void main(String[] args) {
+		System.out.println("pozitif veya 0 sayısı giriniz");
+		Scanner sc=new Scanner(System.in);
+		int a;a=sc.nextInt();
+		int t=a%2;
+		if(t==0) {System.out.println(a+" sayısı çiftir");}
+		else {System.out.println(a+" sayısı tektir"); 
+			
+		}
+	
+}}
