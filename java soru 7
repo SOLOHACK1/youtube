@@ -1,0 +1,13 @@
+package java1;
+import java.util.Scanner;
+
+public  class main3{
+	public static void main(String[] args) {
+		System.out.println("kardeşlerin yaşlarını giriniz : ");
+		Scanner sc=new Scanner(System.in);
+		int a,b;a=sc.nextInt();b=sc.nextInt();
+		System.out.println("kardeşleirn yaşlarının toplamı : "+(a+b));
+			System.out.println("kardeşlerin yaşlarını ortalaması : "+(a+b)/2);
+		
+
+	}}
