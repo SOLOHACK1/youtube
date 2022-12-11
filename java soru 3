@@ -1,0 +1,9 @@
+package java1;
+import java.util.Scanner;
+public class MAİN2 {
+	public static void main(String[] args) {System.out.println("küpün hacmini hesaplamak için ayarıt uzunluğu giriniz");
+Scanner sc=new Scanner(System.in);
+int a;a=sc.nextInt();
+System.out.println("küpün hacmi "+(a*a*a)+"cm'dir");
+	
+}}
