@@ -1,0 +1,11 @@
+package java1;
+import java.util.Scanner;
+
+public  class main3{
+	public static void main(String[] args) {
+System.out.println("çemberin yarıçapını giriniz");
+Scanner sc=new Scanner(System.in);
+int r;r=sc.nextInt();double pı=3.14;
+	System.out.println("çemberin alanı"+pı*pı*r+" dir ve çevreesi"+2*pı*r+"'dir");
+	
+	}}
