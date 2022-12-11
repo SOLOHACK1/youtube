@@ -1,0 +1,14 @@
+package java1;
+import java.util.Scanner;
+
+public class main {
+	public static void main(String[] args) {
+		System.out.println("iki sayı giriniz");
+		Scanner sc=new Scanner(System.in);
+		int a,b;a=sc.nextInt();b=sc.nextInt();
+		
+		System.out.print(Math.max(a, b));
+
+	}
+
+}
