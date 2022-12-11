@@ -1,0 +1,18 @@
+package java1;
+import java.util.Scanner;
+import java.util.Random;
+public  class main3{
+	public static void main(String[] args) {
+		System.out.println("1=kĞIT,2=TAŞ,3=MAKAS. birini seçin");
+	Random rnd=new Random();Scanner sc=new Scanner(System.in);
+	int pc,kisi;pc=rnd.nextInt(3)+1;kisi=sc.nextInt();
+	if(kisi==1&&pc==1) {System.out.println("beraber");}
+	if(kisi==1&&pc==2) {System.out.println("kazandını!");}		
+	if(kisi==1&&pc==3) {System.out.println("pc kazandı");}
+	if(kisi==2&&pc==1) {System.out.println("pc kazandı");}
+	if(kisi==2&&pc==2) {System.out.println("berabere"); }
+	if(kisi==2&&pc==3) {System.out.println("kazandınız!");}
+	if(kisi==3&&pc==1) {System.out.println("KAzandınız1");}
+	if(kisi==3&&pc==2) {System.out.println("pc kazandı");}
+	if(kisi==3&&pc==3) {System.out.println("beraber");}
+	}}
